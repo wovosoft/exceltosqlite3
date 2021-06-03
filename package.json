@@ -1,0 +1,31 @@
+{
+  "name": "exceltosqlite3",
+  "version": "1.0.0",
+  "description": "Converts Microsoft Excel File to SQLite3 database with blob support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wovosoft/exceltosqlite3.git"
+  },
+  "keywords": [
+    "Excel",
+    "SQLite3",
+    "Microsoft",
+    "Spreadsheet"
+  ],
+  "author": "Narayan Adhikary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wovosoft/exceltosqlite3/issues"
+  },
+  "homepage": "https://github.com/wovosoft/exceltosqlite3#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "node-file-dialog": "^1.0.3",
+    "sqlite3": "^5.0.2",
+    "xlsx": "^0.17.0"
+  }
+}
